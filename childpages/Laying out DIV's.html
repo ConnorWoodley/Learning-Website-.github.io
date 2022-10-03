@@ -25,17 +25,27 @@
         <!-- Already specified in the charset above-->
 
         <!-- Cyber Security Note about JavaScript in Browsers-->
-        <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your Feature to execute scripts is turned off</noscript>
 
+        <style>
+
+            h1 {font-size:3vw;}
+            div {border: thin dotted red;}
+
+        </style>
+
+        <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your Feature to execute scripts is turned off</noscript>
+        
+        <!--If wanting the whole website to be a style, you put in in the <head> tag
+        The style tag above is now applied to everything on this page that has that same tag-->
     </head>
 
     <body>
-        <Header>Laying out DIV's</Header>
-        <nav></nav>
+        <Header><div><h1 style="font-size:4.5vw">Laying out DIV's</h1></div></Header>
+        <nav><div style="border: thick dotted green;"><h1>Here is another conainer, illustrated by DIV</h1></div></nav>
         <aside></aside>
-        <main></main>
+        <main><div><h1>And the MAIN container, illustrated by DIV</h1></div></main>
         <section></section>
-        <article>Instructions:</article>
+        <article></article>
         <footer></footer>
     </body>
     
