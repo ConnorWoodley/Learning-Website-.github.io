@@ -33,72 +33,57 @@
                 border: 1px solid green;
                 padding: 15px;
             }
+            .nav {
+                border: 1px solid purple;
+                padding: 15px;
+                width: 15%;
+                float: right;
+                text-align: center; 
+                font-size: 1.5vw;
+            }
+            .main {
+                border: 1px solid black;
+                padding: 15px;
+                width: 79%;
+                float: left;
+            }
+            body {
+                background-image: url('https://i0.wp.com/static.web-backgrounds.net/uploads/2011/04/preview17.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
         </Style>
-
+        <!--Date Image Accessed 20221005-->
     </head>
 
     <body>
         <Header class="header" style="text-align: center">
             <h1>Learning in HTML</h1>
             <h2>Programming a Webpage</h2>
-            Navigation Menu
         </Header>
-        <nav>
-            <header>
-                <div style="float:left">
-                    <p style="font-size:1.5vw">Meta Data</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Meta Data Example.html" target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                    <p style="font-size:1.5vw">Footer Blockquote</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Footer Blockquote Example.html" target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                </div>
-                <div style="float: left">
-                    <p style="font-size:1.5vw">Template Example</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/childTemplate.html" target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                    <p style="font-size:1.5vw">Headings and Paragragh Tags</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Headings and Paragraph Tags.html" target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                </div>
-                <div style="float:right">
-                    <p style="font-size:1.5vw">Subscript and Superscript Tags</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Subscript and Superscript Tags.html"  target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                    <p style="font-size:1.5vw">Image Lesson</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Image Lesson.html"  target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                </div>
-                <div style="float:right">
-                    <p style="font-size:1.5vw">Laying out Div's</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Laying out DIV's.html"  target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                    <p style="font-size:1.5vw">FlexBox</p>
-                    <ul style="list-style-type:square">
-                        <li><a href="childpages/Flexbox.html"  target="_blank">Click here and then open in WYSIWYG</a>
-                    </ul>
-                </div>
-            </header>
+        <nav class="nav" >
+            <h1>Navigation</h1>
+            <a href="childpages/Meta Data Example.html" target="_blank">Meta Data Example</a>
+            <br><br><br>
+            <a href="childpages/Flexbox.html" target="_blank">Flexbox example</a>
+            <br><br><br>
+            <a href="childpages/Footer Blockquote Example.html" target="_blank">Footer Blockquote</a>
+            <br><br><br>
+            <a href="childpages/Headings and Paragraph Tags.html" target="_blank">Headings/Paragraphs</a>
+            <br><br><br>
+            <a href="childpages/Image Lesson.html" target="_blank">Image example</a>
+            <br><br><br>
+            <a href="childpages/Laying out DIV's.html" target="_blank">Laying DIV's</a>
+            <br><br><br>
+            <a href="childpages/Subscript and Superscript Tags.html" target="_blank">Sub/SuperScript Tags</a>
+            <br><br><br>
+            <a href="childpages/childTemplate.html" target="_blank">Webpage Template</a>
         </nav>
         <aside></aside>
-        <main>
-            Summerizaion of what ive learned:
-            <p>
-                HTML focuses on the use of <strong>Semantic Tags.</strong> These <strong>Semantic Tags</strong> have many commands such as:
-                <p>
-                    The <Strong> < Strong > </Strong> tag. Example: <strong>This is a Example text</strong>
-                </p>
-                <p>
-                    The <em> < em > </em> tag. Example: <em>This is a Example text</em>
-                </p>
-            </p>
+        <main class="main">
+            <h1 style="text-align: center; color:brown">Summerizaion of Learning:</h1>
+            test
         </main>
         <section></section>
         <article></article>
