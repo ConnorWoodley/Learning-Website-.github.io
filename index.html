@@ -32,6 +32,7 @@
             .header {
                 border: 2px solid black;
                 padding: 15px;
+                background-color:rgba(255, 255, 255, 0.5)
             }
             .nav {
                 border: 2px solid black;
@@ -40,30 +41,35 @@
                 float: right;
                 text-align: center; 
                 font-size: 1.5vw;
+                background-color:rgba(255, 255, 255, 0.5)
             }
             .main {
                 border: 2px solid black;
                 padding: 15px;
                 width: 79%;
                 float: left;
+                background-color:rgba(255, 255, 255, 0.5)
             }
             .article_1 {
                 border: 2px solid black;
                 padding: 10px;
                 float: left;
                 width: 45%;
+                background-color:rgba(199, 199, 199, 0.5)
             }
             .article_2 {
                 border: 2px solid black;
                 padding: 10px;
                 float: right;
                 width: 45%;
+                background-color:rgba(199, 199, 199, 0.5)
             }
             .footer {
                 border: 2px solid black;
-                padding: 15px;
-                width: 79%;
+                padding: 10px;
+                width: 98%;
                 float: left;
+                background-color:rgba(255, 255, 255, 0.5)
             }
             body {
                 background-image: url('https://i0.wp.com/static.web-backgrounds.net/uploads/2011/04/preview17.jpg');
@@ -72,63 +78,81 @@
                 background-size: cover;
             }
         </Style>
-        <!--Date Image Accessed 20221005-->
+        <!--Date Image Accessed 2022105-->
     </head>
+
 
     <body>
         <Header class="header" style="text-align: center; color:black">
             <h1>Learning in HTML</h1>
             <h2>Programming a Webpage</h2>
         </Header>
-        <nav class="nav" >
+        <nav class="nav">
             <h1>Navigation</h1>
             <a href="childpages/Meta Data Example.html" target="_blank">Meta Data Example</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Flexbox.html" target="_blank">Flexbox example</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Footer Blockquote Example.html" target="_blank">Footer Blockquote</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Headings and Paragraph Tags.html" target="_blank">Headings/Paragraphs</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Image Lesson.html" target="_blank">Image example</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Laying out DIV's.html" target="_blank">Laying DIV's</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/Subscript and Superscript Tags.html" target="_blank">Sub/SuperScript Tags</a>
-            <br><br><br>
+            <br><br><br><br>
             <a href="childpages/childTemplate.html" target="_blank">Webpage Template</a>
+            <br><br>
         </nav>
-        <aside></aside>
         <main class="main">
             <h1 style="text-align: center">Summerizaion of Learning:</h1>
-            <article class="article_1" style="color:black; background-color:white">
+            <article class="article_1" style="color:black">
                 <strong>
                     First thing that you would want to do when making a website is creating a To-Do list of what you want on your website. You can also use the <'ul> tag to create a "unorganized list".
                     <br>
-                    Example: <ul style="list-style-type:square">This is a example of a list</ul>
+                    Example: 
+                    <ul style="list-style-type:square">
+                        <li>This is a example of a list</li>
+                        <li>Hi i'm a list</li>
+                        <li>I'm also a list</li>
+                    </ul>
+                    <ul style="list-style-type:disc">
+                        <li>I dont like the list above me</li>
+                        <li>I like the list above me</li>
+                        <li>I perfer to stay away from office politics</li>
+                    </ul>
+                    <ul style="list-style-type:upper-roman">
+                        <li>I like roman numerals</li>
+                        <li>Me too!</li>
+                        <li>Me three!</li>
+                    </ul>
                     <br>
                     you can see the attribute tag that is attatched to this tag in visual code studio
-                     <br><br><br>
+                     <br><br>
                     When making a website, you can make the code easier to understand/visualize by creating different tags corresponding to the placement of the text/code you want it in.
                     <br>
                     Example: the use of "header", "nav", "aside", "main", "section", "article", "footer"
                     <br>
                     By stylizing the use of these tags you are able to create a more pleasing looking code that isnt spaghetti code.
-                    <br><br><br>
+                    <br><br>
                     Once creating an organized code that is to your liking you can now begin the process of adding attributes to the tags
                     <br>
                     Example: the use of <'a href="*hyperlink*" target="_blank">
                     <br>
                     The href is a attribute that links another website, webpage, or file. I honestly dont exactly remember why the "_blank" is needed so think of it what you will
-                    <br><br><br>
+                    <br><br>
                 </strong>
             </article>
-            <article class="article_2">
-                Sample text
-
+            <article class="article_2" style="color:black">
+                <strong>With my new knowladge on computers and code, I plan on creating a well functioning website for my mothers photograghy company, <strong style="color:rgb(166, 0, 0)">RedSocks go with Absolutly Anything</strong>. I plan on creating a system that displayes my mothers photos, videos, projects, and information about her. The purpose of this website is to help me with this future project, alothough you can also use it to your liking.</strong>
+                <br><br><br>
+                <img src="https://i0.wp.com/www.albertamamas.com/wp-content/uploads/2017/12/cover.jpg" alt="" title="RSGWAA photo" style="width:100%;height:auto;text-align:center;">
+                <!--Date Accessed 2022106-->
+                <br><br><br><br><br><br><br>
             </article>
         </main>
-        <section></section>
         <br><br><br><br><br><br><br><br><br><br>
         <footer class="footer" style="text-align: center">
             <strong>"Sometimes I feel like everyone has plugged themselves into my kidneys, i'm so tired"</strong>
@@ -136,7 +160,6 @@
             <p>@ Connor Woodley, powered by Connor Woodley in Github</p>
         </footer>
     </body>
-    
     <footer>
         <blockquote cite="file://fs-052/studuser$/Gr10/c.woodley1/My%20Documents/GitHub/Learning-Website-.github.io/childpages/childTemplate.html">
             <!-- Date Accessed 20220919 -->
