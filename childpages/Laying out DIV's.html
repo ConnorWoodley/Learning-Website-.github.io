@@ -4,7 +4,7 @@
         <!-- Used by the keyboard -->
         <meta charset="utf-8">
 
-        <title>Laying out DIV's</title>
+        <title>Learning Website - Laying DIV's</title>
 
         <!-- Used by Browser or Google Search -->
         <meta name="author" content="Connor Woodley">
@@ -28,11 +28,37 @@
 
         <style>
             .header {
-                border: 2px solid black;
+                border: thick dotted blue;
                 padding: 15px;
                 background-color:rgba(255, 255, 255, 0.5);
                 text-align: center; 
                 color:black;
+            }
+            .nav {
+                border: thick dotted green;
+                padding: 15px;
+                width: 15%;
+                float: right;
+                text-align: center; 
+                font-size: 1.5vw;
+                background-color:rgba(255, 255, 255, 0.5)
+            }
+            .main {
+                border: thick dotted black;
+                padding: 15px;
+                width: 78%;
+                height: 17vw;
+                float: left;
+                background-color:rgba(255, 255, 255, 0.5);
+                text-align: center;
+            }
+            .footer {
+                border: thick dotted orange;
+                padding: 10px;
+                width: 97.7%;
+                float: left;
+                background-color:rgba(255, 255, 255, 0.5);
+                text-align: center;
             }
             body {
                 background-image: url('https://i0.wp.com/static.web-backgrounds.net/uploads/2011/04/preview17.jpg');
@@ -55,42 +81,30 @@
             </div>
         </Header>
 
-        <nav>
-            <div style="border: thick dotted green;">
+        <nav class="nav">
+            <div>
                 <h1>Here is another conainer, illustrated by DIV</h1>
             </div>
         </nav>
-        
+
         <aside></aside>
-        <main><div><h1>And the MAIN container, illustrated by DIV</h1></div></main>
-        <section></section>
-        <article></article>
-        <footer></footer>
+        <main class="main">
+            <div>
+                <h1>And the MAIN container, illustrated by DIV</h1>
+                I dont really like divs... they confuse me and I much perfer the whole float tag... Since this is my website I wond tell you what it means, go google it lazy.
+            </div>
+        </main>
+
+        <footer class="footer">
+            <strong>"Sometimes I feel like everyone has plugged themselves into my kidneys, i'm so tired"</strong>
+            <em><a href="https://goop.com/" target="_blank"> - Gwyneth Paltrow</a></em>
+            <p>@ Connor Woodley, powered by Connor Woodley in Github</p>
+        </footer>
     </body>
     
     <footer>
         <blockquote cite="file://fs-052/studuser$/Gr10/c.woodley1/My%20Documents/GitHub/Learning-Website-.github.io/childpages/childTemplate.html">
             <!-- Date Accessed 20220919 -->
         </blockquote>
-        <p>
-            <strong>
-                "Sometimes I feel like everyone has plugged themselves into my kidneys, im so tired"
-            </strong>
-            <em>
-               <a href="https://goop.com/" target="_blank">
-                - Gwyneth Paltrow
-               </a>
-            </em>
-        </p>
-        <p>&copy Connor Woodley, powered by ConnorWoodley in GitHub
-            <!--
-                A. Meta Data Example: Open this is ATOM to see meta dats changes :)
-                B. Footer Blockquote Example: click here
-                C. Template Exemplar: click here
-                D. Headings and Paragragh Tags: click here
-                E. Subscript and Superscript Tags: click here
-                F. 
-            -->
-        </p>
     </footer>
  </html>
